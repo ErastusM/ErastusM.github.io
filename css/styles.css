@@ -1,0 +1,29 @@
+#myImage {
+    max-width: 100%;
+    /* Prevent image from getting larger than its original size */
+    height: auto;
+    /* Automatically adjust height to maintain proportions */
+
+}
+
+
+
+.col-md-5 {
+    text-align: center;
+}
+
+#header_19 {
+    display: block;
+    /* Make the image act as a block element */
+    margin-left: auto;
+    /* Automatic left margin */
+    margin-right: auto;
+    /* Automatic right margin */
+    height: auto;
+    /* Maintains the image's aspect ratio */
+    margin-top: 25%;
+
+    width: 80%;
+
+    height: 60%;
+}

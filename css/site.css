@@ -1,0 +1,557 @@
+/*
+Author: Geraldo Isaaks
+version: 0.0.1
+Date: 20/08/2022
+client: ayabi-nam.com
+Package: Basic
+*/
+
+html,
+body {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+main,
+#home {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+/*
+    HEADER
+*/
+
+.header {
+  height: 400px;
+  background: url("../images/header_bg.png");
+  position: relative;
+}
+
+.mainTop .socialIcon {
+  display: inline-block;
+  width: 38px;
+  padding: 4px 16px;
+}
+
+.mainNav {
+  max-width: 1366px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainNav,
+.footer {
+  background: #0e3d15;
+  color: #fff;
+}
+
+.mainNav li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 18px;
+}
+
+.mainNav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-div {
+  background: #655f35;
+  padding: 8px;
+  display: inline-block;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+
+.hero-content-div {
+  margin: 20px auto;
+  text-align: center;
+  position: absolute;
+  right: 10%;
+  left: 10%;
+  top: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  z-index: 999;
+  color: #FFFDD0;
+  letter-spacing: 20px;
+}
+
+.hero-content-div .content {
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.hero-content-div .content h2 {
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hero-content-div .hero-cta {
+  padding: 16px 22px;
+  background: #eaa21a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.navbar-brand img.mb-4 {
+  margin-bottom: 0 !important;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-indicators {
+  bottom: 70px;
+}
+
+.btn-primary {
+  background-color: #0e3d15;
+  border: #0e3d15;
+}
+
+
+/*
+  SECTION DEFAULTS
+*/
+
+#about-ayabi,
+#services-ayabi {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#about-ayabi>div,
+.services-groups {
+  max-width: 1100px;
+}
+
+.services-groups {
+  margin: auto 0;
+}
+
+#services-ayabi .services-groups {
+  margin: 10% auto;
+}
+
+section {
+  min-height: 500px;
+  padding: 18px;
+  /* text-align: center; */
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+}
+
+.section-heading {
+  position: absolute;
+  width: 137px;
+  text-align: center;
+  text-transform: uppercase;
+  bottom: 0;
+  padding: 14px 20px;
+}
+
+.section-one-heading {
+  top: 20px;
+  left: 10%;
+  color: #fff;
+  display: none;
+}
+
+.section-two-heading {
+  right: 10%;
+  color: #fff;
+  background: #655f35;
+}
+
+.section-three-heading {
+  left: 10%;
+  color: #fff;
+  background: #0f0f0f;
+}
+
+.section-four-heading {
+  right: 10%;
+  color: #000;
+  background: #fff;
+}
+
+/*
+  SECTION ONE
+*/
+
+#Beds {
+  background: #fbf4ee;
+  position: relative;
+  padding: 0 8px;
+  min-height: 500px;
+}
+
+.section-beds {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 85%;
+  margin: 0 auto;
+  min-height: 500px;
+  min-height: 500px;
+  height: 100%;
+}
+
+.section-beds .bed {
+  text-align: center;
+  padding: 0 18px;
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+  height: 100%;
+  min-height: 500px;
+  border-top: 16px solid rgba(0, 0, 0, 0);
+}
+
+.section-beds .bed h3 {
+  visibility: hidden;
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 70%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section-beds .bed img {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 80%;
+}
+
+.section-beds .bed:hover {
+  background: #0f0f0f;
+  border-top: 16px solid #655f35 !important;
+  height: 100%;
+  min-height: 500px;
+}
+
+.section-beds .bed:hover h3 {
+  visibility: visible;
+}
+
+/*
+  SECTION TWO
+*/
+#about-ayabi {
+  margin-top: 50px;
+}
+
+#about-ayabi,
+#contact-us {
+  background: #0f0f0f;
+}
+
+#services-ayabi {
+  background: #655f35;
+}
+
+#services-ayabi .col-md-5 {
+  text-align: center;
+}
+
+.accessory-groups,
+.accessories {
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+}
+
+.accessory {
+  display: inline-block;
+  margin: 7px;
+  position: relative;
+}
+
+.overlay {
+  visibility: hidden;
+}
+
+.accessory:hover>.overlay {
+  position: absolute;
+  visibility: visible;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+}
+
+.accessory .overlay h3 {
+  margin: auto;
+}
+
+.accessory img {
+  height: 190px;
+}
+
+/*
+  SECTION THREE
+*/
+
+#About {
+  background: #0f0f0f;
+  height: 500px;
+}
+
+.reviews-container {
+  max-width: 82%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  height: inherit;
+}
+
+.reviews-container .arrow {
+  height: 34px;
+  position: absolute;
+  margin: auto;
+  padding: 10px;
+}
+
+.reviews-container .arrowlft {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding-right: 0;
+}
+
+.reviews-container .arrowrt {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding-left: 0;
+}
+
+.reviews-container .review {
+  margin: auto 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: max-content;
+}
+
+.review-content-div {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #000;
+  padding: 4% 10px;
+}
+
+.reviews-container .review .review-childElem {
+  display: inline;
+  margin-left: 48px;
+}
+
+.reviews-container .review .review-contents {
+  margin: 0 auto;
+  margin-right: 48px;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.pagination-nav {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+}
+
+.pagination-nav .paginator {
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  display: inline-block;
+  margin: 0.3%;
+}
+
+.pagination-nav .active {
+  background: #000;
+}
+
+/*
+  SECTION FOUR
+*/
+
+#Contact {
+  background: url("../images/find_us.png");
+}
+
+/*
+  FOOTER
+*/
+
+footer {
+  min-height: 280px;
+  background: #0f0f0f;
+  text-align: center;
+  position: relative;
+  padding: 18px;
+}
+
+footer .contents {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 1100px;
+  justify-content: center;
+}
+
+footer .contents>div {
+  padding: 8px;
+  text-align: left;
+}
+
+footer form {
+  position: relative;
+}
+
+footer .input-email {
+  width: 100%;
+  padding: 12px;
+}
+
+footer .input-btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 20px;
+  margin: 2px auto;
+  margin-right: 2px;
+  ;
+  background: orange;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.copyright {
+  text-align: center;
+  padding: 8px;
+  background: #03180e;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.backtotop {
+  position: fixed;
+  right: 30px;
+  bottom: 0;
+  z-index: 1030;
+  background-color: black;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.backtotop a {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.brand-name {
+  display: block;
+  padding: 0 8px;
+  color: #fff;
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+  /* OVER-WRITE  Carousel base class */
+  .carousel,
+  .header {
+    height: 648px;
+  }
+
+  .hero-content-div {
+    top: 40%;
+  }
+}
+
+@media (min-width: 62em) {
+
+  .brand-name {
+    display: none;
+  }
+
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+/*  OVER WRITE RULES */
+.row {
+  --bs-gutter-x: 0;
+}
+
+.col-md-7 {
+  padding: 0 18px;
+}
