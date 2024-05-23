@@ -17,9 +17,12 @@ if (isset($_POST['contactUs'])) {
 
     <!-- custom css -->
     <link href="css/styles.css" rel="stylesheet">
-
+    <ins data-revive-zoneid="1" data-revive-target="_blank" data-revive-id="52fd860d2a1ca98519e69b66fb1efbf3"></ins>
+    <script async src="//40.127.14.230/revive-adserver-5.5.2/www/delivery/asyncjs.php"></script>
 </head>
 <body id="home">
+<a class="anchorElement"></a>
+<img class="advertIMG" style="width: 100%;">
 
 <div class="wrapper">
         <header class="header">
@@ -205,6 +208,7 @@ if (isset($_POST['contactUs'])) {
             <script async src="//102.37.141.134/ad_server/revive-adserver-5.5.2/www/delivery/asyncjs.php"></script>
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
 <script>
   $(document).ready(function(){
     $("a").on('click', function(event) {
