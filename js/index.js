@@ -1,6 +1,6 @@
 var formdata = new FormData();
 formdata.append("type", "Horizontal Strip");
-formdata.append("tags", "labware");
+formdata.append("tags", "labware,music,part,VW,Volkswagen,ps5,stereo,headphones,");
 
 var ajax = new XMLHttpRequest();
 ajax.addEventListener("load", completeHandler, false);
