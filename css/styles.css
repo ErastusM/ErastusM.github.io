@@ -27,3 +27,8 @@
 
     height: 60%;
 }
+
+.advertIMG {
+    float: left;
+    /* Move the image to the left and allow text to flow around it */
+}
