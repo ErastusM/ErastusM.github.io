@@ -1,6 +1,6 @@
 var formdata = new FormData();
-formdata.append("type", "Vertical Strip");
-formdata.append("tags", "labs");
+formdata.append("type", "Horizontal Strip");
+formdata.append("tags", "labware");
 
 var ajax = new XMLHttpRequest();
 ajax.addEventListener("load", completeHandler, false);
@@ -19,3 +19,5 @@ function completeHandler(event) {
     document.querySelector('.anchorElement').href = response.href;
     document.querySelector('.headerText').innerHTML = response.message;
 }
+
+

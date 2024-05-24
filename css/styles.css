@@ -28,7 +28,12 @@
     height: 60%;
 }
 
-.advertIMG {
-    float: left;
-    /* Move the image to the left and allow text to flow around it */
+/* Ad Container */
+
+/* Ad Image */
+#first-ad {
+    width: 50%;
+    /* Make image fill the width of its container */
+    height: auto;
+    /* Maintain aspect ratio */
 }
