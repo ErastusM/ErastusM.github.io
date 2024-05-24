@@ -8,7 +8,7 @@ formdata2.append("tags", "Volkswagen,VW,headphones,labware,music,party,ps5,stere
 
 var formdata3 = new FormData();
 formdata3.append("type", "horizontal Strip");
-formdata3.append("tags", "music,party,ps5,stereo,headphones,Volkswagen,VW");
+formdata3.append("tags", "music,party,ps5,stereo,headphones,Volkswagen,VW,labware");
 
 var ajax1 = new XMLHttpRequest();
 ajax1.addEventListener("load", completeHandler1, false);
