@@ -31,9 +31,3 @@
 /* Ad Container */
 
 /* Ad Image */
-#first-ad {
-    width: 50%;
-    /* Make image fill the width of its container */
-    height: auto;
-    /* Maintain aspect ratio */
-}
