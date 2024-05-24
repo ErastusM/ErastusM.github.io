@@ -1,14 +1,14 @@
 var formdata1 = new FormData();
 formdata1.append("type", "Horizontal Strip"); // These are the type of ad servers defined on the dashboard
-formdata1.append("tags", "labware"); // These are the categories you assign your ad
+formdata1.append("tags", "Volkswagen,VW,heaphones,music,party,ps5,stereo,labware"); // These are the categories you assign your ad
 
 var formdata2 = new FormData();
-formdata2.append("type", "Dark Square");
-formdata2.append("tags", "Volkswagen, VW");
+formdata2.append("type", "Light Square");
+formdata2.append("tags", "Volkswagen,VW,headphones,labware,music,party,ps5,stereo");
 
 var formdata3 = new FormData();
-formdata3.append("type", "Light Square");
-formdata3.append("tags", "music,party, ps5,stereo,headphones,");
+formdata3.append("type", "horizontal Strip");
+formdata3.append("tags", "music,party,ps5,stereo,headphones,Volkswagen,VW");
 
 var ajax1 = new XMLHttpRequest();
 ajax1.addEventListener("load", completeHandler1, false);
